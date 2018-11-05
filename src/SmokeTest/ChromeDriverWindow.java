@@ -11,7 +11,7 @@ public class ChromeDriverWindow {
 
         WebDriver driver;
 
-        System.setProperty("webdriver.chrome.driver", "/Users/zakirfarajee/Desktop/JavaSelenium/Drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/farajeez/SeleniumProject/chromedriver.exe");
 
         driver = new ChromeDriver();
         driver.get(baseURL);

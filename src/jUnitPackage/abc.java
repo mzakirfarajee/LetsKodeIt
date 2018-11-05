@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 
         @Before
         public void setUp() throws Exception {
-            System.setProperty("webdriver.chrome.driver", "/Users/zakirfarajee/Desktop/JavaSelenium/Drivers/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "/Users/farajeez/SeleniumProject/chromedriver.exe");
             driver = new ChromeDriver();
             driver.manage().window().maximize();
             baseURL = "https://www.google.com";

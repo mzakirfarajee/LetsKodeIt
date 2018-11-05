@@ -13,7 +13,7 @@ public class FireFoxDriver {
 
         WebDriver driver;
 
-        System.setProperty("webdriver.gecko.driver", "//Users/zakirfarajee/Desktop/JavaSelenium/Drivers/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "/Users/farajeez/SeleniumProject/geckodriver.exe");
 
         driver = new FirefoxDriver();
         driver.get(baseURL);
